@@ -57,7 +57,7 @@ const Shop = () => {
 
         setCart(newCart);
         addToDb(product._id)
-        setCurrentPage(0); // নতুন পৃষ্ঠায় ডেটা লোড করার জন্য
+        setCurrentPage(0); // নতুন পৃষ্ঠায় ডেটা লোড করার জন্য /
     }
 
     const handleClearCart = () => {
